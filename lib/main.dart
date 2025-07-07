@@ -5,9 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'result.dart';
 import 'dart:convert';
+import 'dict.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Dictionary(word:'hello'));
 }
 
 class MyApp extends StatefulWidget {
